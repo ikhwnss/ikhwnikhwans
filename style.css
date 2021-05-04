@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #E8EAF6;
+}
+
+.jumbotron {
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+    font-family: Poppins;
+    color: rgb(4, 4, 70);
+}
+
+.display-4 {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Viga;
+    font-style: normal;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 30px;
+}
+
+hr .my-4 {
+    font: bold;
+    font-style: normal;
+    height: 20px;
+}
+
+.whatsapp {
+    padding: 9px 14px;
+    background-color: rgb(4, 4, 70);
+    text-decoration: none;
+    color: white !important;
+    border: 0 solid rgb(4, 4, 70);
+    border-radius: 4px;
+}
+
+@media (max-width: 991px) {
+    .jumbotron {
+        margin-top: 50%;
+    }
+
+    .display-4 {
+        margin-top: 20px;
+        text-align: center;
+        font-family: Viga;
+        font-style: normal;
+        font-weight: bold;
+        font-style: inherit;
+        font-size: 30px;
+    }
+
+    .my-4 {
+        margin: 100px;
+        font-weight: bold;
+        color: rgb(4, 4, 70);
+    }
+}
